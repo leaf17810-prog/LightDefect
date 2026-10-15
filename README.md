@@ -28,17 +28,20 @@ with **0.914M parameters** under the reported experimental settings.
 
 ## Downloads
 
-The source package and prediction maps are distributed through Baidu Netdisk.
+The source package and prediction maps are available in a shared Baidu Netdisk folder.
 The source package contains model, training, inference and evaluation code,
 dataset split lists, and usage instructions. Dataset images, ground-truth masks
 and trained checkpoints are not included.
 
-<!-- Before publishing, replace both link placeholders and both extraction codes below. -->
+**Download:** [Baidu Netdisk shared folder](https://pan.baidu.com/s/15gnheM1rqGpzwJJkWBERNQ)  
+**Extraction code:** `sxd2`
 
-| Resource | Download | Extraction code |
-| --- | --- | --- |
-| Source code and evaluation scripts | [LightDefect_github_public.zip](CODE_BAIDU_LINK) | `CODE_EXTRACTION_CODE` |
-| DefectNet d6-mc64 prediction maps | [DefectNet_d6_mc64_predictions.zip](MAPS_BAIDU_LINK) | `MAPS_EXTRACTION_CODE` |
+Select the required archive from the shared folder:
+
+| Archive | Contents |
+| --- | --- |
+| `DefectNet.zip` | Source code, training and evaluation scripts, dataset split lists, and usage instructions |
+| `DefectNet_d6_mc64_predictions.zip` | DefectNet d6-mc64 prediction maps for SSP2000, SD-saliency-900, and NRSD-MN |
 
 ## Released prediction maps
 
@@ -92,3 +95,4 @@ The software license does not automatically license the paper figures,
 prediction maps, original datasets, or other non-code materials. It grants no
 additional rights in those materials. Third-party components retain their own
 licenses; this license does not replace their terms.
+
